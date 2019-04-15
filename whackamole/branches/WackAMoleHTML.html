@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Whack a Professor!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Load css file-->
+    <link rel="stylesheet" href="WhackAMoleCss.css">
+</head>
+<style>
+</style>
+
+<body onload="loadAll()">
+    <!-- Importing jQuery library for animation purposes -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.pause.js"></script>
+
+    <!--Draw a large canvas and populate with nested "windows" and "prof" blocks-->
+    <div id="main" class="main">
+        <!--Main div element: the canvas-->
+        <div class="canvas">
+            <!--First div element: the 'window1'-->
+            <div id="1" class="window1" style="left: 27px; top:9px">
+                <!--The next nested element: the professor-->
+                <div class="prof"></div>
+            </div>
+
+            <!--Second div element: the 'window2'-->
+            <div id="2" class="window1" style="left: 225px; top:9px">
+                <div class="prof"></div>
+            </div>
+
+            <!--Third div element: the 'window3'-->
+            <div id="3" class="window1" style="left:658px; top:9px">
+                <div class="prof"></div>
+            </div>
+
+            <!--Forth div element: the 'window4'-->
+            <div id="4" class="window1" style="left:868px; top:9px">
+                <div class="prof"></div>
+            </div>
+
+            <!--Clock div element: the 'window'-->
+            <div class="clock">
+                <!--The next nested element: The clock hand-->
+                <div class="hand"></div>
+            </div>
+
+            <!--Fifth div element: the 'window5'-->
+            <div id="5" class="window1" style="left:27px; top:213px">
+                <div class="prof"></div>
+            </div>
+
+            <!--Sixth div element: the 'window6'-->
+            <div id="6" class="window1" style="left:225px; top:213px">
+                <div class="prof"></div>
+            </div>
+
+            <!--Seventh div element: the 'window7'-->
+            <div id="7" class="window1" style="left:451px; top:213px">
+                <div class="prof"></div>
+            </div>
+
+            <!--Eighth div element: the 'window8'-->
+            <div id="8" class="window1" style="left:659px; top:213px">
+                <div class="prof"></div>
+            </div>
+
+            <!--Ninth div element: the 'window9'-->
+            <div id="9" class="window1" style="left:868px; top:213px">
+                <div class="prof"></div>
+            </div>
+
+            <!--tenth div element: the 'window10'-->
+            <div id="10" class="window1" style="left:225px; top:428px">
+                <div class="prof"></div>
+            </div>
+
+            <!--eleventh div element: the 'window11'-->
+            <div id="11" class="window1" style="left:451px; top:428px">
+                <div class="prof"></div>
+            </div>
+
+            <!--tweleth div element: the 'window12'-->
+            <div id="12" class="window1" style="left:659px; top: 428px">
+                <div class="prof"></div>
+            </div>
+        </div>
+        
+        <!-- Sidebar -->
+        <div class="sideBar">
+            <p>Whack a Professor!</p>
+            <div>
+                Score:
+                <span id="score">0</span>
+            </div>
+            <div class="rainbow">
+                High score:
+                <span id="hiscore1">0</span>
+            </div>
+            <div class="rainbow">
+                <!-- High score 2: -->
+                <span id="hiscore2">0</span>
+            </div>
+            <div class="rainbow">
+                <!-- High score 3: -->
+                <span id="hiscore3">0</span>
+            </div>
+            <div class="buttonMain">Press 'P' to pause the game!</div>
+        </div>
+
+        <!-- Splash screen -->
+        <div id="splash" class="modal" align="center" style="display: block">
+            <div class="modal-content">
+                <p>Whack a Professor!</p>
+                <button id="newstart" class="buttonMain">Start!</button>
+            </div>
+        </div>
+        <!-- Pause menu/Game over screen -->
+        <div id="pauseScreen" class="modal" align="center">
+            <!-- pause menu -->
+            <div id="pauseMenu" class="modal-content" style="display: none">
+                <!--<span class="close">&times;</span>-->
+                <p><font size="6">Game paused</font></p>
+                <button id="restart" class="buttonModal">Restart</button>
+                <button id="music" class="buttonModal">Toggle Music</button>
+                <button id="resume" class="buttonModal"> Resume </button>
+            </div>
+            <!-- game over screen -->
+            <div id="gameover" class="modal-content" style="display: none">
+                <p><font size="10">Game over!</font></p>
+                <p>Here's your score:
+                    <br><font size="6"><span id="goScore">0</span></font>
+                </p>
+                <button id="gameoverbtn" class="buttonModal">Restart</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Load javascript file -->
+    <script src="WhackAMoleJS.js"></script>
+</body>
+
+</html>

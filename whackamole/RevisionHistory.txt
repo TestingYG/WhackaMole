@@ -1,0 +1,692 @@
+Revision: 71
+Author: TestingYG
+Date: Thursday, May 10, 2018 10:35:28 AM
+Message:
+minor fix
+----
+Modified : /branches/WhackAMoleJS.js
+
+Revision: 70
+Author: TestingYG
+Date: Thursday, May 10, 2018 10:29:53 AM
+Message:
+got rid of commented out code
+----
+Modified : /branches/WhackAMoleJS.js
+
+Revision: 69
+Author: TestingYG
+Date: Thursday, May 10, 2018 10:22:42 AM
+Message:
+high score bug fixed
+----
+Modified : /branches/WhackAMoleJS.js
+Modified : /branches/jquery.pause.js
+
+Revision: 68
+Author: TestingYG
+Date: Wednesday, May 9, 2018 10:39:01 AM
+Message:
+fix high score3 issue 
+----
+Modified : /branches/WhackAMoleJS.js
+
+Revision: 67
+Author: DChiu28
+Date: Tuesday, May 8, 2018 6:59:01 PM
+Message:
+Fixed minor bug with scoring
+----
+Modified : /branches/WhackAMoleJS.js
+
+Revision: 66
+Author: DChiu28
+Date: Tuesday, May 8, 2018 6:51:36 PM
+Message:
+- Fixed click handling
+- Got rid of the buttons in sidebar - use P key instead
+- Encased all existing code into a loadAll() function to be loaded in HTML
+- Added click handlers to all buttons instead of using HTML onClick
+----
+Modified : /branches/WackAMoleHTML.html
+Modified : /branches/WhackAMoleCss.css
+Modified : /branches/WhackAMoleJS.js
+
+Revision: 65
+Author: DChiu28
+Date: Tuesday, May 8, 2018 2:13:34 PM
+Message:
+Added preliminary splash screen
+----
+Modified : /branches/WackAMoleHTML.html
+Modified : /branches/WhackAMoleCss.css
+Modified : /branches/WhackAMoleJS.js
+
+Revision: 64
+Author: nreshetov
+Date: Tuesday, May 8, 2018 10:53:28 AM
+Message:
+updated RevisionHistory.txt
+----
+Modified : /RevisionHistory.txt
+
+Revision: 63
+Author: DChiu28
+Date: Tuesday, May 8, 2018 1:30:51 AM
+Message:
+minor change to centered game area
+----
+Modified : /branches/WhackAMoleCss.css
+
+Revision: 62
+Author: DChiu28
+Date: Tuesday, May 8, 2018 1:27:36 AM
+Message:
+-Integrated graphic layout
+-Centered canvas
+-Cleaned up html
+----
+Modified : /branches/WackAMoleHTML.html
+Modified : /branches/WhackAMoleCss.css
+Modified : /branches/WhackAMoleJS.js
+Added : /branches/graphic/background.png
+Added : /branches/graphic/chalk.png
+Added : /branches/graphic/woodenFrame.png
+
+Revision: 61
+Author: TestingYG
+Date: Tuesday, May 8, 2018 12:27:25 AM
+Message:
+highscore 1 2 3 added
+
+----
+Modified : /branches/WackAMoleHTML.html
+Modified : /branches/WhackAMoleCss.css
+Modified : /branches/WhackAMoleJS.js
+
+Revision: 60
+Author: DChiu28
+Date: Monday, May 7, 2018 2:48:43 PM
+Message:
+Added basic gameover screen: shows score and restart button
+----
+Modified : /branches/WackAMoleHTML.html
+Modified : /branches/WhackAMoleJS.js
+
+Revision: 59
+Author: DChiu28
+Date: Monday, May 7, 2018 2:01:08 PM
+Message:
+Fixed minor debugging issue with hiscore
+----
+Modified : /branches/WhackAMoleJS.js
+
+Revision: 58
+Author: DChiu28
+Date: Monday, May 7, 2018 1:52:05 PM
+Message:
+Added a pause.js plugin for future usage; Added hiscore
+----
+Modified : /branches/WackAMoleHTML.html
+Modified : /branches/WhackAMoleJS.js
+Added : /branches/jquery.pause.js
+
+Revision: 57
+Author: nreshetov
+Date: Sunday, May 6, 2018 10:31:49 PM
+Message:
+updated revision history
+----
+Modified : /RevisionHistory.txt
+
+Revision: 56
+Author: TestingYG
+Date: Sunday, May 6, 2018 8:37:47 PM
+Message:
+fix timer bug
+
+----
+Modified : /branches/WhackAMoleJS.js
+
+Revision: 55
+Author: DChiu28
+Date: Sunday, May 6, 2018 8:03:18 PM
+Message:
+Debugging pause/resume function
+----
+Modified : /branches/WackAMoleHTML.html
+Modified : /branches/WhackAMoleCss.css
+Modified : /branches/WhackAMoleJS.js
+
+Revision: 54
+Author: DChiu28
+Date: Sunday, May 6, 2018 7:11:27 PM
+Message:
+Added fixed deadtrustee image and optimize some of the modal code for pause function
+----
+Added : /branches/graphic/deadtrust3.png
+
+Revision: 53
+Author: TestingYG
+Date: Sunday, May 6, 2018 6:20:17 PM
+Message:
+game now pause properly by clicking pause or p.
+game also resumes properly by clicking resume.
+----
+Modified : /branches/WackAMoleHTML.html
+Modified : /branches/WhackAMoleJS.js
+
+Revision: 52
+Author: leo11235
+Date: Friday, May 4, 2018 11:44:39 PM
+Message:
+pause button and pause modal
+----
+Modified : /branches/WackAMoleHTML.html
+Modified : /branches/WhackAMoleCss.css
+Modified : /branches/WhackAMoleJS.js
+
+Revision: 51
+Author: DChiu28
+Date: Thursday, May 3, 2018 2:06:43 PM
+Message:
+fixed html windows and redundant css
+----
+Modified : /branches/WackAMoleHTML.html
+Modified : /branches/WhackAMoleCss.css
+Modified : /branches/WhackAMoleJS.js
+
+Revision: 50
+Author: leo11235
+Date: Thursday, May 3, 2018 1:26:42 PM
+Message:
+commennt
+----
+Modified : /branches/WackAMoleHTML.html
+
+Revision: 49
+Author: DChiu28
+Date: Thursday, May 3, 2018 12:31:38 PM
+Message:
+misc fixes+explode effects
+----
+Modified : /branches/WhackAMoleJS.js
+
+Revision: 48
+Author: nreshetov
+Date: Thursday, May 3, 2018 12:09:57 PM
+Message:
+updated repository hierarchy
+----
+Added : /QA.rtf
+
+Revision: 47
+Author: nreshetov
+Date: Thursday, May 3, 2018 12:03:31 PM
+Message:
+updated revision history
+----
+Modified : /RevisionHistory.txt
+
+Revision: 46
+Author: DChiu28
+Date: Thursday, May 3, 2018 11:26:03 AM
+Message:
+implemented tanuka's explode effect+tweaking move function
+----
+Modified : /branches/WackAMoleHTML.html
+Modified : /branches/WhackAMoleCss.css
+Modified : /branches/WhackAMoleJS.js
+Modified : /branches/graphic/deadtrust.jpg
+Added : /branches/graphic/deadtrust2.jpg
+
+Revision: 45
+Author: nreshetov
+Date: Thursday, May 3, 2018 12:01:39 AM
+Message:
+revision history update
+----
+Modified : /RevisionHistory.txt
+
+Revision: 44
+Author: TestingYG
+Date: Wednesday, May 2, 2018 10:52:07 PM
+Message:
+minor change
+----
+Modified : /branches/WackAMoleHTML.html
+
+Revision: 43
+Author: TestingYG
+Date: Wednesday, May 2, 2018 10:43:17 PM
+Message:
+filename changes, alignment of the windows, and code clean up
+----
+Added : /branches/WackAMoleHTML.html
+Added : /branches/WhackAMoleCss.css
+Added : /branches/WhackAMoleJS.js
+Deleted : /branches/balloon.jpg
+Deleted : /branches/clickDetection.html
+Deleted : /branches/test.css
+Deleted : /branches/test.js
+Deleted : /branches/test2.html
+
+Revision: 42
+Author: DChiu28
+Date: Wednesday, May 2, 2018 10:31:21 PM
+Message:
+added dead trustee image
+----
+Added : /branches/graphic/deadtrust.jpg
+
+Revision: 41
+Author: DChiu28
+Date: Wednesday, May 2, 2018 10:25:45 PM
+Message:
+cleaned up some of the code
+----
+Modified : /branches/test.css
+Modified : /branches/test.js
+Modified : /branches/test2.html
+
+Revision: 40
+Author: Dtanuka
+Date: Wednesday, May 2, 2018 9:26:26 PM
+Message:
+added explosion effect
+----
+Modified : /branches/clickDetection.html
+
+Revision: 39
+Author: nreshetov
+Date: Wednesday, May 2, 2018 4:02:44 PM
+Message:
+revision history updated
+----
+Modified : /RevisionHistory.txt
+
+Revision: 38
+Author: DChiu28
+Date: Tuesday, May 1, 2018 11:19:10 PM
+Message:
+moar cleanup+comments
+----
+Modified : /branches/test.js
+
+Revision: 37
+Author: DChiu28
+Date: Tuesday, May 1, 2018 11:02:25 PM
+Message:
+cleanup code+add some comments
+----
+Modified : /branches/test.css
+Modified : /branches/test.js
+Modified : /branches/test2.html
+
+Revision: 36
+Author: TestingYG
+Date: Tuesday, May 1, 2018 4:33:16 PM
+Message:
+fixed trustee issues and other bugs
+----
+Modified : /branches/test.css
+Modified : /branches/test.js
+Modified : /branches/test2.html
+
+Revision: 35
+Author: DChiu28
+Date: Tuesday, May 1, 2018 11:29:18 AM
+Message:
+branch commit: added dead prof image
+----
+Added : /branches/graphic/deadprof.png
+Modified : /branches/test.css
+Modified : /branches/test.js
+
+Revision: 34
+Author: DChiu28
+Date: Monday, April 30, 2018 11:25:15 PM
+Message:
+branch commit: Began testing trustee pop ups and scoring
+----
+Added : /branches/graphic/Trustee.png
+Modified : /branches/test.css
+Modified : /branches/test.js
+Modified : /branches/test2.html
+
+Revision: 33
+Author: nreshetov
+Date: Monday, April 30, 2018 3:50:48 PM
+Message:
+updating revision history
+----
+Modified : /RevisionHistory.txt
+
+Revision: 32
+Author: TestingYG
+Date: Friday, April 27, 2018 12:57:03 AM
+Message:
+adding comments
+----
+Modified : /branches/test.js
+
+Revision: 31
+Author: TestingYG
+Date: Friday, April 27, 2018 12:52:09 AM
+Message:
+implemented clock and timer
+----
+Modified : /branches/test.css
+Modified : /branches/test.js
+Modified : /branches/test2.html
+
+Revision: 30
+Author: nreshetov
+Date: Thursday, April 26, 2018 1:37:38 PM
+Message:
+Added revision history in txt file
+----
+Added : /RevisionHistory.txt
+
+Revision: 29
+Author: DChiu28
+Date: Tuesday, April 24, 2018 1:41:17 PM
+Message:
+minor updates
+----
+Modified : /branches/test.css
+Modified : /branches/test.js
+Modified : /branches/test2.html
+
+Revision: 28
+Author: DChiu28
+Date: Thursday, April 19, 2018 12:41:49 PM
+Message:
+branch commit: minor menu fixes
+----
+Modified : /branches/test.css
+Modified : /branches/test2.html
+
+Revision: 27
+Author: TestingYG
+Date: Wednesday, April 18, 2018 2:02:13 PM
+Message:
+fully intergraded reset button
+----
+Modified : /branches/test.js
+Modified : /branches/test2.html
+
+Revision: 26
+Author: DChiu28
+Date: Thursday, April 12, 2018 2:29:40 PM
+Message:
+branch commit: minor fixes
+----
+Modified : /branches/test.css
+Modified : /branches/test.js
+
+Revision: 25
+Author: DChiu28
+Date: Tuesday, April 10, 2018 2:37:30 AM
+Message:
+Main commit: merged Leo's update with Joey's graphics
+----
+Modified : /Project/index.html
+Modified : /Project/whackamole.js
+
+Revision: 24
+Author: DChiu28
+Date: Monday, April 9, 2018 10:32:44 PM
+Message:
+branch commit: graphics testing
+----
+Added : /branches/graphic
+Added : /branches/graphic/all.jpg
+Added : /branches/graphic/fence.png
+Added : /branches/graphic/hammer.png
+Added : /branches/graphic/hammerOnClick.png
+Added : /branches/graphic/level2.png
+Added : /branches/graphic/level3.jpg
+Added : /branches/graphic/professor.png
+Modified : /branches/test.css
+Modified : /branches/test2.html
+
+Revision: 23
+Author: goeeec
+Date: Monday, April 9, 2018 8:19:51 PM
+Message:
+graphic sources
+----
+Added : /Project/graphic
+Added : /Project/graphic/all.jpg
+Added : /Project/graphic/fence.png
+Added : /Project/graphic/hammer.png
+Added : /Project/graphic/hammerOnClick.png
+Added : /Project/graphic/level2.png
+Added : /Project/graphic/level3.jpg
+Added : /Project/graphic/professor.png
+
+Revision: 22
+Author: goeeec
+Date: Monday, April 9, 2018 8:17:08 PM
+Message:
+graphics added
+----
+Modified : /Project/index.html
+Modified : /Project/whackamole.js
+
+Revision: 21
+Author: DChiu28
+Date: Monday, April 9, 2018 1:40:07 PM
+Message:
+branch commit: misc comments
+----
+Modified : /branches/test2.html
+
+Revision: 20
+Author: DChiu28
+Date: Monday, April 9, 2018 1:31:39 PM
+Message:
+branch commit: Graphics testing
+----
+Added : /branches/balloon.jpg
+Modified : /branches/test2.html
+
+Revision: 19
+Author: DChiu28
+Date: Monday, April 9, 2018 1:03:09 AM
+Message:
+branch commit: revamping canvas
+----
+Modified : /branches/test.css
+Modified : /branches/test2.html
+
+Revision: 18
+Author: DChiu28
+Date: Saturday, April 7, 2018 12:14:04 AM
+Message:
+misc commit
+----
+Added : /2ND_VER_PROJECT_IN_BRANCH_FOLDER.txt
+
+Revision: 17
+Author: DChiu28
+Date: Saturday, April 7, 2018 12:05:27 AM
+Message:
+Branch commit: Fixes to click handling
+----
+Modified : /branches/test.js
+
+Revision: 16
+Author: TestingYG
+Date: Friday, April 6, 2018 5:27:37 PM
+Message:
+potental fix to reset button
+----
+Modified : /Project/whackamole.js
+
+Revision: 15
+Author: DChiu28
+Date: Thursday, April 5, 2018 12:15:19 AM
+Message:
+Branch commit:
+- Added click handler for prof blocks
+- Added score counter
+----
+Modified : /branches/test.css
+Modified : /branches/test.js
+Modified : /branches/test2.html
+
+Revision: 14
+Author: DChiu28
+Date: Friday, March 30, 2018 5:40:58 PM
+Message:
+BACKBONE COMMIT:
+Updated main source files to Leo's JS version:
+- Working randomization
+- Click detection on blocks
+- Score counter
+- Pause function
+- ?Reset?
+Updated branch source files for HTML/CSS version:
+- Working randomization
+- No click detection
+- No score counter
+- No pause
+- No timer
+- No Reset
+----
+Added : /branches/test.css
+Added : /branches/test.js
+
+Revision: 13
+Author: DChiu28
+Date: Friday, March 30, 2018 5:40:22 PM
+Message:
+BACKBONE COMMIT:
+Updated main source files to Leo's JS version:
+- Working randomization
+- Click detection on blocks
+- Score counter
+- Pause function
+- ?Reset?
+Updated branch source files for HTML/CSS version:
+- Working randomization
+- No click detection
+- No score counter
+- No pause
+- No timer
+- No Reset
+----
+Modified : /Project/index.html
+Modified : /Project/whackamole.js
+Modified : /branches/test2.html
+
+Revision: 12
+Author: DChiu28
+Date: Friday, March 30, 2018 5:01:28 PM
+Message:
+Branch commit
+----
+Modified : /branches/test2.html
+
+Revision: 11
+Author: DChiu28
+Date: Monday, March 26, 2018 5:51:41 PM
+Message:
+Commit to branch folder
+----
+Modified : /branches/test2.html
+
+Revision: 10
+Author: DChiu28
+Date: Monday, March 26, 2018 4:39:35 PM
+Message:
+Branch commit:
+HTML test
+----
+Modified : /branches/test2.html
+
+Revision: 9
+Author: DChiu28
+Date: Monday, March 26, 2018 1:40:04 AM
+Message:
+Committing branch files
+----
+Modified : /branches/test2.html
+
+Revision: 8
+Author: DChiu28
+Date: Monday, March 26, 2018 1:07:11 AM
+Message:
+Backbone commit:
+Adding branch files for testing purposes
+No changes to main project
+----
+Added : /branches/clickDetection.html
+Added : /branches/test2.html
+
+Revision: 7
+Author: DChiu28
+Date: Sunday, March 25, 2018 8:33:11 PM
+Message:
+Backbone commit:
+Transfer of javascript code into js file
+
+----
+Modified : /Project/index.html
+Added : /Project/whackamole.js
+
+Revision: 6
+Author: DChiu28
+Date: Sunday, March 25, 2018 7:21:37 PM
+Message:
+Backbone commit:
+Blocks move up and down; no Randomization
+----
+Modified : /Project/index.html
+
+Revision: 5
+Author: DChiu28
+Date: Sunday, March 25, 2018 12:48:10 AM
+Message:
+Backbone Commit:
+Integrated Leo's pause function
+----
+Modified : /Project/index.html
+
+Revision: 4
+Author: DChiu28
+Date: Friday, March 23, 2018 11:31:40 PM
+Message:
+$BACKBONE COMMIT:\nPieces move up but not down\nSwitched to an array of game pieces instead\nIncreased size of canvas
+----
+Modified : /Project/index.html
+
+Revision: 3
+Author: DChiu28
+Date: Friday, March 23, 2018 8:14:22 PM
+Message:
+INITIAL COMMIT OF ORIGINAL SOURCE FILE
+----
+Added : /Project/index.html
+
+Revision: 2
+Author: raghibc
+Date: Tuesday, March 20, 2018 1:00:23 PM
+Message:
+Testing
+----
+Added : /Project
+Added : /Project/sample.txt
+
+Revision: 1
+Author: www-data
+Date: Tuesday, March 20, 2018 12:10:35 PM
+Message:
+Creating initial repository structure
+----
+Added : /branches
+Added : /tags
+Added : /trunk
+

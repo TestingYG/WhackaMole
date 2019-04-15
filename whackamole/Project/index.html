@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Whack a Professor</title>
+    <style>
+      canvas {
+        border: 1px solid #d3d3d3;
+        background-color: #f1f1f1;
+        cursor: url(./graphic/hammer.png), auto;
+      }
+
+      canvas:active {
+        cursor: url(./graphic/hammerOnClick.png), auto;
+      }
+
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      /* Modal Content */
+      .modal-content {
+        background-color: #fefefe;
+        /*margin: auto;*/
+        padding: 20px;
+        border: 1px solid #888;
+        width: 600px;
+        margin: 50px;
+      }
+      /* The Close Button */
+      .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    </style>
+</head>
+
+<!-- When the body loads, run startGame() -->
+  <body onload="startGame()">
+    <h1>Javascript Whack a Professor Game</h1>
+    <button id="play-btn" onclick="playGame()">Play Game</button>
+    <div><span>Score:</span><span id="score"></span></div>
+    <div><span>Lives:</span><span id="lives"></span></div>
+    <p id="is_paused">Press 'P' to pause game</p>
+    <button id="pause">Pause</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <p>MENU</p>
+        <p id="game-over"></p>
+        <button onclick="playGame()">Restart</button>
+        <!--Needs functionality-->
+        <button id="toggle-music">Toggle music</button>
+        <!--Needs functionality-->
+        <button id="continue">Continue</button>
+      </div>
+    </div>
+    <script src="whackamole.js"></script>
+  </body>
+</html>
